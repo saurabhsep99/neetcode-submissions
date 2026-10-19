@@ -1,0 +1,4 @@
+-- Write your query below
+Select DISTINCT ON (student_id) student_id,exam_id,score from exam_results 
+ORDER BY student_id, score DESC, exam_id;
+
